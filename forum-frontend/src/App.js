@@ -57,7 +57,7 @@ class App extends React.Component {
     })
     .then( r => r.json())
     .then( (newPost) => {
-      // console.log(newPost)
+      console.log(newPost)
       let newPostArray = [newPost, ...this.state.posts]
       this.setState({
         posts: newPostArray

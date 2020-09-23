@@ -20,7 +20,7 @@ class PostContainer extends React.Component {
                 deletePost={this.props.deletePost}
                 updatePostLikes={this.props.updatePostLikes}
                 updatePostLikes={this.props.updatePostLikes}/>)
-        } }
+     }
          </div>
     );
 }}
