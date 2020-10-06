@@ -7,7 +7,7 @@ import { Card, Icon, Image } from 'semantic-ui-react';
 
 class PostCard extends React.Component {
 
-
+  // console.log(this.props)
 
 incrementLikes = () => {
 // console.log(this.props.post.likes)
