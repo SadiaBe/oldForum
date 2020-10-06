@@ -8,14 +8,6 @@ class Login extends React.Component {
         console.log(this.props)
 
 
-        // function validateForm() {
-        //   return email.length > 0 && password.length > 0;
-        // }
-      
-        // function handleSubmit(event) {
-        //   event.preventDefault();
-        // }
-
     return (
     <div> Login comp
        <Grid textAlign='center' style={{ height: '100vh' }} verticalAlign='middle'>
@@ -44,30 +36,6 @@ class Login extends React.Component {
       </Message>
     </Grid.Column>
   </Grid>
-      {/* <div className="Login">
-      <form onSubmit={handleSubmit}>
-        <FormGroup controlId="email" bsSize="large">
-          <ControlLabel>Email</ControlLabel>
-          <FormControl
-            autoFocus
-            type="email"
-            value={email}
-            onChange={e => setEmail(e.target.value)}
-          />
-        </FormGroup>
-        <FormGroup controlId="password" bsSize="large">
-          <ControlLabel>Password</ControlLabel>
-          <FormControl
-            value={password}
-            onChange={e => setPassword(e.target.value)}
-            type="password"
-          />
-        </FormGroup>
-        <Button block bsSize="large" disabled={!validateForm()} type="submit">
-          Login
-        </Button>
-      </form>
-    </div> */}
 
       </div> 
 
